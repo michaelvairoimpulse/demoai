@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IA</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div id="body-post">
+    <h2>¿Cuál es nuestra propuesta de valor?</h2>
+
+    <p>En Impulse orquestamos estrategias, procesos y herramientas de HubSpot para ayudarte a crecer de manera
+      sostenible, automatizando procesos que permiten optimizar los recursos económicos de la empresa, así como el
+      tiempo y energía de tus equipos de trabajo.</p>
+
+    <p>De esta manera, superamos los desafíos más grandes a los que se enfrenta una empresa, como son los equipos de
+      trabajo desconectados, procesos ineficientes, herramientas aisladas, data desconfiable, subutilización del CRM y
+      mala experiencia del cliente. Te ayudamos a derribar todas esas barreras que impiden a las empresas generar más
+      ingresos. Es muy común que los negocios pierdan oportunidades de venta por no tener una visión completa del
+      cliente o que, a causa de utilizar herramientas que no están alineadas entre sí, desperdicien muchas horas de
+      trabajo para gestionar las relaciones con ellos. Estos problemas que te hemos mencionado no solo afectan a la
+      conversión de un negocio, también generan un efecto negativo en la satisfacción del cliente y, por consiguiente, a
+      la reputación de la empresa en el mercado.</p>
+
+    <p>Asimismo, no resolver estos problemas puede tener un impacto significativo en la pérdida de clientes, tiempo y
+      dinero de una empresa.</p>
+
+    <h2>¿Qué hacemos en Impulse?</h2>
+
+    <p>En Impulse brindamos servicios de implementación, integración y/o migración de HubSpot, un software de CRM
+      completo que incluye herramientas para gestionar contactos, oportunidades, ventas y seguimiento de clientes, así
+      como herramientas de automatización y análisis.</p>
+
+    <p>Además, ayudamos a las empresas a desarrollar productos digitales y diseñar estrategias de adquisición y
+      retención de clientes en HubSpot, así como brindarles entrenamiento y soporte continuo para asegurar que obtengan
+      el máximo retorno de su inversión.</p>
+
+    <p>Parte de nuestra visión integral es brindar a nuestros socios herramientas que les permitan tener un panorama
+      completo de sus clientes e interacciones con la empresa para mejorar la eficiencia de sus procesos de ventas, así
+      como personalizar ofertas y servicios.</p>
+
+    <p>Además, uno de nuestros principales desafíos es alinear los equipos de trabajo de nuestros socios y, para ello,
+      automatizamos procesos que faciliten la gestión de sus relaciones con los clientes que permitan generar más
+      ingresos y reducir los costos.</p>
+
+    <img style="display: block; margin: 20px auto;" src="./Circulo 1_1.gif" alt="">
+
+    <h2>¿Cuáles son los servicios que ofrecemos?</h2>
+
+    <h3>1. Soluciones de HubSpot</h3>
+
+    <p>Nuestro servicio de HubSpot brinda una experiencia personalizada de implementación de la plataforma que te
+      ayudará a alcanzar tus metas de crecimiento más importantes de manera eficaz. Esta implementación de HubSpot se
+      realiza en semanas y sin complicaciones, para lograr un 50% más de oportunidades de venta para tu negocio.</p>
+
+    <h3>2. Adquisición de clientes</h3>
+
+    <p>En el servicio de Adquisición de clientes nuestro equipo de expertos en Inbound Marketing te ayuda a crear nuevos
+      canales de adquisición de clientes basados en data, contenido y tecnología para generar un ROI 54% más alto.</p>
+
+    <h3>3. Sitios web</h3>
+
+    <p>Con el servicio de Sitios Web nuestro equipo diseña, desarrolla y optimiza tu sitio web para convertir tu tráfico
+      en ventas. Creamos, optimizamos y posicionamos tus activos digitales para incrementar la conversión en 55% o más.
+    </p>
+
+    <h3>4. Optimización de operaciones - RevOps</h3>
+
+    <p>Con el servicio de RevOps, nuestro equipo te ayuda a aumentar y optimizar tus ingresos con estrategias,
+      automatizaciones y análisis de datos para superar tus objetivos de ingresos en un 27% o más.</p>
+
+    <h3>5. Soporte Continuo en HubSpot</h3>
+
+    <p>Con el servicio de Soporte Continuo nuestro equipo de expertos en HubSpot resuelve los problemas que tengas con
+      la plataforma, optimiza procesos y opera el CRM para que tu equipo se mantenga enfocado en su trabajo. De esta
+      manera, resolvemos los problemas, automatizamos procesos y operamos HubSpot para lograr un 80% o más de
+      rendimiento en tus estrategias go-to market.</p>
+  </div>
+
+  <div id="listening">
+    <img class="dale-play" src="./play.jpg">
+    <img class="dale-pause" src="./pause.jpg">
+    <img class="dale-resume" src="./resume.png">
+    <img class="dale-stop" src="./stop.jpg">
+  </div>
+  <div id="ejecutar-resumen"><img src="./resumentexto.jpg" alt=""></div>
+  <div id="modal-resumen">
+    <span id="close-resumen">X</span>
+    <div id="listening-modal">
+      <img class="dale-play" src="./play.jpg">
+      <img class="dale-pause" src="./pause.jpg">
+      <img class="dale-resume" src="./resume.png">
+      <img class="dale-stop" src="./stop.jpg">
+    </div>
+    <span id="refresh-resumen"><img src="./refresh.png" alt="Regenerar resumen"></span>
+    <div id="modal-resumen-box"></div>
+  </div>
+
+  <div id="asist-ia"><img src="https://i0.wp.com/www.baoss.es/wp-content/uploads/2020/11/asistente-virtual-3.jpg"></div>
+  <div id="box-asist-ia">
+    <span id="cerrar-asist">X</span>
+    <textarea id="result" rows="10" disabled placeholder="..." style="height: 70%;"></textarea>
+    <textarea id="inputQuestion" placeholder="Tu pregunta va aquí..." style="height: 20%;"></textarea>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
